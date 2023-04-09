@@ -28,11 +28,12 @@ body {
 /*Container*/
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1440px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0 auto;
   outline: 5px tomato;
 }
 
@@ -199,7 +200,7 @@ body {
 
 /* Values*/
 
-.section-title {
+.section .title {
   margin-top: 0px;
 }
 .values .title {
@@ -250,13 +251,8 @@ body {
   margin-bottom: 8px;
 }
 
-.team-photo {
-  margin-bottom: 32px;
-}
-
 .team-item {
   background-color: var(--primary-white-color);
-  margin-bottom: 32px;
 }
 
 .team-position {
@@ -265,7 +261,6 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 
 /*Footer section*/
