@@ -98,7 +98,9 @@ body {
   color: var(--primary-blue-color);
 }
 
-.logo .link {
+.main-nav .logo {
+  display: inline-block;
+  margin-right: 72px;
   text-decoration: none;
 }
 
@@ -106,17 +108,24 @@ body {
   color: var(--title-text-color);
 }
 
-.main-nav {
+.header .container {
   display: flex;
   align-items: center;
 }
 
-.site-nav {
+.main-nav {
   display: flex;
+  margin-right: auto;
 }
 
 .site-nav {
+  display: flex;
+  align-items: center;
   margin-right: 332px;
+}
+
+.site-nav .list {
+  display: flex;
 }
 
 .site-nav .item:not(:last-child) {
@@ -140,19 +149,20 @@ body {
   color: var(--pressed-color);
 }
 
-.auth-nav {
-  font-style: normal;
+.auth-nav .list {
   display: flex;
+  margin-left: auto;
+}
+
+.auth-nav .link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .auth-nav .item + .item {
   margin-left: 40px;
   background-color: red;
-}
-.auth-nav .link {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .auth-nav .list .link {
@@ -226,6 +236,11 @@ body {
 .values .list {
   display: flex;
 }
+
+.values .li {
+  margin-right: 24;
+}
+
 .values-text {
   color: var(--primary-text-color);
   font-weight: 400;
@@ -250,6 +265,11 @@ body {
 .services-item {
   margin: 0px;
 }
+.services .list {
+  display: flex;
+  flex-wrap: wrap;
+  --items: 3;
+}
 
 /*Our team*/
 .team {
@@ -261,6 +281,18 @@ body {
   margin-bottom: 8px;
 }
 
+.team .list {
+  width: calc(100% - (24px * 3) / 4);
+}
+
+.team .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-wrapper {
+  padding: 32px 49px;
+}
 .team-item {
   background-color: var(--primary-white-color);
 }
