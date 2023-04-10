@@ -50,6 +50,10 @@ body {
   padding-top: 0;
 }
 
+.section-secondary {
+  padding-top: 120px 0;
+}
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -87,9 +91,7 @@ img {
   border-bottom: 1px solid var(--background-cards-our-services);
 }
 
-.logo {
-  margin-right: 72px;
-}
+
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -105,6 +107,7 @@ img {
 .main-nav .logo {
   display: inline-block;
   text-decoration: none;
+  margin-right: 72px;
 }
 
 .logo-black {
@@ -233,10 +236,10 @@ img {
 
 /* Values*/
 
-.values .section {
-  padding-top: 120px;
+.values.section{
+  padding-top: 120px; 
   padding-bottom: 120px;
-}
+  }
 
 .section .title {
   margin-top: 0px;
@@ -278,7 +281,7 @@ img {
 }
 
 .values-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .values-text {
@@ -291,6 +294,10 @@ img {
 }
 
 /*Our services section*/
+
+.services.section{
+  padding-bottom: 120px; 
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -323,8 +330,9 @@ img {
   background-color: var(--our-team-background);
 }
 
-.team .section {
-  padding: 120px, 0px;
+.team.section {
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
 
 .team .list {
@@ -377,8 +385,9 @@ img {
   line-height: 1.5;
 }
 
-.footer .section {
-  padding: 100px, 0px;
+.footer.section {
+  padding-top: 100px; 
+  padding-bottom: 100px;
 }
 
 .footer .link {
@@ -403,7 +412,7 @@ img {
 
 /*Filter and portfolio*/
 
-.categories .section {
+.categories.section {
   padding-top: 96px;
   padding-bottom: 120px;
 }
