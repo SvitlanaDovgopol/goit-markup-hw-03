@@ -25,6 +25,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -75,22 +81,10 @@ body {
   margin: 0 0;
 }
 
-.list {
-  margin: 0;
-  padding: 0;
-}
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
 }
 
 /*Header section*/
@@ -124,7 +118,6 @@ ol {
 
 .main-nav .logo {
   display: inline-block;
-  text-decoration: none;
 }
 
 .logo-black {
@@ -276,17 +269,17 @@ ol {
   margin-bottom: 8px;
 }
 
-.values .list {
+.values.list {
   display: flex;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.values-item {
-  flex-basis: calc((100% - 72px) / 4);
+.values.item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.values-item:not(:last-child) {
+.values.item:not(:last-child) {
   margin-right: 24px;
 }
 
