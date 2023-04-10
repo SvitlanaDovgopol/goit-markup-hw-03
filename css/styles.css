@@ -108,7 +108,7 @@ img {
   color: var(--primary-blue-color);
 }
 
-.logo.link {
+.logo {
   margin-right: 72px;
 }
 
@@ -278,12 +278,11 @@ img {
   row-gap: 48px;
 }
 
+.values-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 .values-item:not(:last-child) {
   margin-right: 24px;
-}
-
-.values-item {
-  width: calc((100% - 72px) / 4);
 }
 
 .values-text {
