@@ -85,10 +85,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /*Header section*/
 .header {
   background-color: var(--body-background);
   border-bottom: 1px solid var(--background-cards-our-services);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -102,8 +108,14 @@ img {
   color: var(--primary-blue-color);
 }
 
-.logo.link{
+.logo.link {
   margin-right: 72px;
+}
+
+.main-nav {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
 }
 
 .main-nav .logo {
@@ -113,17 +125,6 @@ img {
 
 .logo-black {
   color: var(--title-text-color);
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
-}
-
-.main-nav {
-  display: flex;
-  margin-right: auto;
-  align-items: center;
 }
 
 .site-nav {
@@ -237,10 +238,10 @@ img {
 
 /* Values*/
 
-.values.section{
-  padding-top: 120px; 
+.values.section {
+  padding-top: 120px;
   padding-bottom: 120px;
-  }
+}
 
 .section .title {
   margin-top: 0px;
@@ -296,8 +297,8 @@ img {
 
 /*Our services section*/
 
-.services.section{
-  padding-bottom: 120px; 
+.services.section {
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -332,7 +333,7 @@ img {
 }
 
 .team.section {
-  padding-top: 120px; 
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -349,12 +350,6 @@ img {
 .team-item:not(:last-child) {
   margin-right: 24px;
 }
-
-/*.team .section-title {
-  padding-top: 120px;
-  padding-bottom: 120px;
- }
- */
 
 .team .title {
   text-align: center;
@@ -387,7 +382,7 @@ img {
 }
 
 .footer.section {
-  padding-top: 100px; 
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -417,6 +412,7 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
 .categories .type {
   display: inline-block;
   margin-right: 24px;
@@ -471,23 +467,23 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  flex-basis: calc((100% - 24px * 2) / 3);
   padding-left: 0px;
   padding-bottom: 120px;
 }
 
-.portfolio-item {
+.li.portfolio-item {
   display: inline-block;
+  flex-basis: calc((100% - 24px * 2) / 3);
   width: 360px;
   padding: 24px 0px;
   margin-bottom: 24px;
   margin-right: 24px;
 }
 
-.portfolio-item:nth-child(3n){
+.portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
- 
+
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
