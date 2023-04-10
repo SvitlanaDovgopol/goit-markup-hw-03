@@ -257,7 +257,7 @@ img {
   overflow: hidden;
 }
 
-.values .title {
+.values.title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -274,7 +274,7 @@ img {
 }
 
 .values.item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .values.item:not(:last-child) {
