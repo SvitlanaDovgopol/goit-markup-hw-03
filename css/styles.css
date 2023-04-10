@@ -86,6 +86,13 @@ img {
   height: auto;
 }
 
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 /*Header section*/
 .header {
   background-color: var(--body-background);
@@ -108,7 +115,7 @@ img {
   color: var(--primary-blue-color);
 }
 
-.logo {
+.logo.link {
   margin-right: 72px;
 }
 
