@@ -104,10 +104,13 @@ img {
   color: var(--primary-blue-color);
 }
 
+.logo.link{
+  margin-right: 72px;
+}
+
 .main-nav .logo {
   display: inline-block;
   text-decoration: none;
-  margin-right: 72px;
 }
 
 .logo-black {
@@ -281,7 +284,7 @@ img {
 }
 
 .values-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .values-text {
