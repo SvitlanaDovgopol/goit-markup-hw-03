@@ -108,8 +108,7 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--primary-blue-color);
-  display: inline-block;
-}
+  }
 
 .logo-black {
   color: var(--title-text-color);
