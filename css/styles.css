@@ -262,12 +262,15 @@ img {
 
 .values.list {
   display: flex;
-  row-gap: 48px;
-  gap: 24px;
-}
+    row-gap: 48px;
+ }
 
 .values.item {
   width: calc((100% - 72px) / 4);
+}
+
+.values.item:not(:last-child) {
+  margin-right: 24px;
 }
 
 .values-text {
