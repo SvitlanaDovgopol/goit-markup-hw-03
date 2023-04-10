@@ -282,9 +282,10 @@ ol {
   row-gap: 48px;
 }
 
-.list .values-item {
-  width: calc((100% - 72px) / 4);
+.values-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
+
 .values-item:not(:last-child) {
   margin-right: 24px;
 }
