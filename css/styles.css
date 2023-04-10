@@ -87,8 +87,6 @@ img {
   border-bottom: 1px solid var(--background-cards-our-services);
 }
 
-
-
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -261,13 +259,14 @@ img {
   row-gap: 48px;
 }
 
-.values-item:not(:last-child){
-  margin-right:24px;
+.values-item:not(:last-child) {
+  margin-right: 24px;
 }
-}
+
 .values-item {
-  width: calc((100% -72px) / 4);}
-  
+  width: calc((100% -72px) / 4);
+}
+
 .values-text {
   color: var(--primary-text-color);
   font-weight: 400;
@@ -355,11 +354,11 @@ img {
   line-height: 1.5;
 }
 
-.footer .section{
+.footer .section {
   padding: 100px 0;
 }
 .footer .link {
-  display: inline-block; 
+  display: inline-block;
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -380,8 +379,9 @@ img {
 
 /*Filter and portfolio*/
 
-.categories .section{
-  padding: 96px 0 120px;
+.categories-section {
+  padding-top: 96px;
+  padding-bottom: 120;
 }
 
 .categories .type {
