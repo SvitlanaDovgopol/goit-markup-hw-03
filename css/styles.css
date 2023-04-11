@@ -31,6 +31,18 @@ body {
   list-style: none;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
 /*Container*/
 
 .container {
@@ -82,7 +94,7 @@ img {
 }
 
 /*Header section*/
-.header {
+header {
   background-color: var(--body-background);
   border-bottom: 1px solid var(--background-cards-our-services);
 }
@@ -202,10 +214,8 @@ img {
   border: none;
   cursor: pointer;
   padding: 16px 32px;
-  margin-bottom: 188px;
   margin-left: auto;
   margin-right: auto;
-
   align-items: center;
   text-align: center;
   font-family: inherit;
@@ -412,7 +422,6 @@ img {
 
 .list-type {
   margin-bottom: 72px;
-  padding-top: 96px;
   gap: 24px;
   margin-top: 0;
   margin-left: 0;
@@ -424,7 +433,7 @@ img {
 
 .categories-button {
   color: var(--primary-blue-color);
-  border: var(--background-cards-our-services);
+  border-bottom: var(--background-cards-our-services);
   background-color: var(--secondary-white-color);
   font-family: inherit;
   font-weight: 500;
@@ -454,7 +463,6 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   padding-left: 0px;
-  padding-bottom: 120px;
 }
 
 .li.portfolio-item {
@@ -476,6 +484,8 @@ img {
 
 .portfolio-wrapper {
   border-bottom: 1px solid var(--background-cards-our-services);
+  border-left: 1px solid var(--background-cards-our-services);
+  border-right: 1px solid var(--background-cards-our-services);
   border-radius: 0px;
   padding: 32px 16px;
 }
